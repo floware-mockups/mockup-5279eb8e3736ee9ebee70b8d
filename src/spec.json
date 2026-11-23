@@ -1,0 +1,290 @@
+{
+  "title": "Gestione delle pratiche per passi carrai",
+  "description": "Tieni sotto controllo le richieste ricevute, le scadenze entro 30 giorni e i controlli da fare. Le pratiche e i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Situazione pratiche",
+      "description": "Una vista rapida delle scadenze, degli incassi e dei controlli in corso.",
+      "metrics": [
+        {
+          "label": "Avvisi emessi",
+          "value": "24"
+        },
+        {
+          "label": "Importo incassato del mese",
+          "value": "€ 1.840"
+        },
+        {
+          "label": "Rate in scadenza",
+          "value": "5"
+        },
+        {
+          "label": "Rimborsi da istruire",
+          "value": "2"
+        },
+        {
+          "label": "Pratiche aperte",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Contribuente",
+        "Ricevuta il",
+        "Scadenza",
+        "Stato",
+        "Prossimo controllo"
+      ],
+      "rows": [
+        [
+          "PC-104",
+          "Lumo Riva",
+          "03/06/2026",
+          "03/07/2026",
+          "Da verificare",
+          "Controllare i dati"
+        ],
+        [
+          "PC-103",
+          "Vela Neri",
+          "01/06/2026",
+          "01/07/2026",
+          "In attesa di pagamento",
+          "Verificare la rata"
+        ],
+        [
+          "PC-102",
+          "Nubi Sera",
+          "28/05/2026",
+          "27/06/2026",
+          "Da istruire",
+          "Completare la verifica"
+        ],
+        [
+          "PC-101",
+          "Lumo Brina",
+          "20/05/2026",
+          "19/06/2026",
+          "Rimborso da istruire",
+          "Controllare l'importo"
+        ],
+        [
+          "PC-100",
+          "Vela Alba",
+          "15/05/2026",
+          "14/06/2026",
+          "Pagata",
+          "Nessun controllo"
+        ],
+        [
+          "PC-099",
+          "Nubi Vento",
+          "12/05/2026",
+          "11/06/2026",
+          "Da verificare",
+          "Controllare la scadenza"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-pratiche",
+      "title": "Registro pratiche",
+      "description": "Cerca una pratica e filtra l'elenco per stato. La scadenza aiuta a capire subito cosa seguire.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Contribuente",
+        "Tributo",
+        "Importo",
+        "Ricevuta il",
+        "Scadenza",
+        "Stato pagamento",
+        "Stato pratica"
+      ],
+      "rows": [
+        [
+          "PC-104",
+          "Lumo Riva",
+          "Passo carraio",
+          "€ 120",
+          "03/06/2026",
+          "03/07/2026",
+          "Non pagato",
+          "Da verificare"
+        ],
+        [
+          "PC-103",
+          "Vela Neri",
+          "Passo carraio",
+          "€ 85",
+          "01/06/2026",
+          "01/07/2026",
+          "Parziale",
+          "In attesa di pagamento"
+        ],
+        [
+          "PC-102",
+          "Nubi Sera",
+          "Passo carraio",
+          "€ 140",
+          "28/05/2026",
+          "27/06/2026",
+          "Non pagato",
+          "Da istruire"
+        ],
+        [
+          "PC-101",
+          "Lumo Brina",
+          "Passo carraio",
+          "€ 65",
+          "20/05/2026",
+          "19/06/2026",
+          "Da rimborsare",
+          "Rimborso da istruire"
+        ],
+        [
+          "PC-100",
+          "Vela Alba",
+          "Passo carraio",
+          "€ 95",
+          "15/05/2026",
+          "14/06/2026",
+          "Pagato",
+          "Chiusa"
+        ],
+        [
+          "PC-099",
+          "Nubi Vento",
+          "Passo carraio",
+          "€ 110",
+          "12/05/2026",
+          "11/06/2026",
+          "Non pagato",
+          "Da verificare"
+        ],
+        [
+          "PC-098",
+          "Lumo Fiore",
+          "Passo carraio",
+          "€ 75",
+          "09/05/2026",
+          "08/06/2026",
+          "Pagato",
+          "Chiusa"
+        ],
+        [
+          "PC-097",
+          "Vela Lago",
+          "Passo carraio",
+          "€ 130",
+          "05/05/2026",
+          "04/06/2026",
+          "Parziale",
+          "In attesa di pagamento"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Contribuente",
+        "Tributo",
+        "Importo",
+        "Ricevuta il",
+        "Scadenza",
+        "Stato pagamento",
+        "Stato pratica"
+      ]
+    },
+    {
+      "id": "controlli-e-scadenze",
+      "title": "Controlli e scadenze",
+      "description": "Segui le pratiche in attesa e verifica per ciascuna il prossimo passo e il tempo rimasto per rispondere.",
+      "metrics": [
+        {
+          "label": "Entro 7 giorni",
+          "value": "2"
+        },
+        {
+          "label": "Entro 30 giorni",
+          "value": "6"
+        },
+        {
+          "label": "Da controllare",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Contribuente",
+        "Ricevuta il",
+        "Scadenza",
+        "Giorni rimasti",
+        "Stato",
+        "Controllo da fare"
+      ],
+      "rows": [
+        [
+          "PC-099",
+          "Nubi Vento",
+          "12/05/2026",
+          "11/06/2026",
+          "4",
+          "Da verificare",
+          "Controllare i dati"
+        ],
+        [
+          "PC-100",
+          "Vela Alba",
+          "15/05/2026",
+          "14/06/2026",
+          "7",
+          "Chiusa",
+          "Nessun controllo"
+        ],
+        [
+          "PC-101",
+          "Lumo Brina",
+          "20/05/2026",
+          "19/06/2026",
+          "12",
+          "Rimborso da istruire",
+          "Verificare l'importo"
+        ],
+        [
+          "PC-102",
+          "Nubi Sera",
+          "28/05/2026",
+          "27/06/2026",
+          "20",
+          "Da istruire",
+          "Completare la verifica"
+        ],
+        [
+          "PC-103",
+          "Vela Neri",
+          "01/06/2026",
+          "01/07/2026",
+          "24",
+          "In attesa di pagamento",
+          "Verificare la rata"
+        ],
+        [
+          "PC-104",
+          "Lumo Riva",
+          "03/06/2026",
+          "03/07/2026",
+          "26",
+          "Da verificare",
+          "Controllare i dati"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "ardesia",
+    "fonts": "istituzionale"
+  }
+}
