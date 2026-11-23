@@ -281,6 +281,84 @@
         ]
       ],
       "form": []
+    },
+    {
+      "id": "passi-per-contribuente",
+      "title": "Passi carrai per contribuente",
+      "description": "Consulta il numero di passi carrai registrati per contribuente e lo stato della verifica.",
+      "metrics": [
+        {
+          "label": "Contribuenti di esempio",
+          "value": "6"
+        },
+        {
+          "label": "Passi carrai registrati",
+          "value": "10"
+        },
+        {
+          "label": "Verifiche da completare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Contribuente",
+        "Numero passi carrai",
+        "Pratiche collegate",
+        "Zona",
+        "Stato verifica"
+      ],
+      "rows": [
+        [
+          "Lumo Riva",
+          "2",
+          "PC-104, PC-099",
+          "Centro",
+          "Verificato"
+        ],
+        [
+          "Vela Neri",
+          "1",
+          "PC-103",
+          "Nord",
+          "Da verificare"
+        ],
+        [
+          "Nubi Sera",
+          "3",
+          "PC-102",
+          "Est",
+          "In verifica"
+        ],
+        [
+          "Lumo Brina",
+          "1",
+          "PC-101",
+          "Ovest",
+          "Verificato"
+        ],
+        [
+          "Vela Alba",
+          "2",
+          "PC-100, PC-098",
+          "Centro",
+          "Verificato"
+        ],
+        [
+          "Nubi Vento",
+          "1",
+          "PC-097",
+          "Sud",
+          "Da verificare"
+        ]
+      ],
+      "form": [
+        "Contribuente",
+        "Numero passi carrai",
+        "Pratiche collegate",
+        "Zona",
+        "Stato verifica"
+      ],
+      "statusColumn": 4
     }
   ],
   "theme": {
